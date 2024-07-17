@@ -39,3 +39,4 @@ SELECT * FROM users WHERE userid="" or 1 LIMIT 1,1-- " AND userpassword="DUMMY"
  
 #### 어떤 문제점이 있거나 도움이 필요한 것이 있는가?
 sql, java script, python 등 언어중 어떤 언어를 먼저 공부하는게 좋을지.
+-> sql언어는 언제나 잘 쓰고 , 자바스크립트는 프론트언어 , 파이썬은 풀스택이긴한데 , 내 생각은 1순위 파이썬 2순위 sql 3순위 자바스크립트 언어일것 같음
